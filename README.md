@@ -39,23 +39,21 @@ Questo progetto implementa un sistema di votazione sicuro e trasparente basato s
     -  Sostituisci il valore address del contratto con l'indirizzo del contratto distribuito.
 ### 4. Avvia l'applicazione
   Utilizzando un altro terminale usare il segeunte comando per avviare l'applicazione:
-  npm start
+  -  npm start
   L'app sarà disponibile su http://localhost:3000.
 
 Utilizzo
-Aggiungere un candidato
+1)  Aggiungere un candidato
 -  L'amministratore può aggiungere candidati dalla sezione "Aggiungi Candidato".
 -  Inserire i dati richiesti (nome, età, partito) e caricare una foto.
 -  Cliccare su "Aggiungi Candidato".
-Avviare le elezioni
+2)  Avviare le elezioni
 -  Specificare la durata delle elezioni in minuti.
 -   Cliccare su "Inizia Elezioni". Lo stato cambierà in "In corso".
-Votare
+3)  Votare
 -  Connetti MetaMask e accedi con un account.
 -  Nella sezione "Candidati", clicca su "Vota" accanto al candidato scelto.
-Terminare le elezioni
+4)  Terminare le elezioni
 -  Quando il tempo è scaduto, l'amministratore può cliccare su "Termina Elezioni".
 -  I risultati saranno visibili nella sezione "Risultati delle Elezioni".
-Screenshot
-(Inserisci qui degli screenshot dell'interfaccia utente per illustrare le funzionalità principali).
 
