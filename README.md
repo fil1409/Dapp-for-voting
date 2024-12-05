@@ -25,7 +25,8 @@ Questo progetto implementa un sistema di votazione sicuro e trasparente basato s
 ## Configurazione del progetto
 
 ### 1. Clona la repository
-  git clone https://github.com/<username>/voting-system-blockchain.git \n
+  git clone https://github.com/<username>/voting-system-blockchain.git
+  
   cd voting-system-blockchain
 ### 2. Installa le dipendenze
   npm install
@@ -40,6 +41,7 @@ Questo progetto implementa un sistema di votazione sicuro e trasparente basato s
 ### 4. Avvia l'applicazione
   Utilizzando un altro terminale usare il segeunte comando per avviare l'applicazione:
   -  npm start
+  -  
   L'app sarà disponibile su http://localhost:3000.
 
 Utilizzo
