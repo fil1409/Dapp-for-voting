@@ -25,9 +25,9 @@ Questo progetto implementa un sistema di votazione sicuro e trasparente basato s
 ## Configurazione del progetto
 
 ### 1. Clona la repository
-  git clone https://github.com/<username>/voting-system-blockchain.git
-  
-  cd voting-system-blockchain
+  git clone https://github.com/fil1409/Dapp-for-voting.git
+
+  cd Dapp-for-voting
 ### 2. Installa le dipendenze
   npm install
 ### 3. Configura il contratto
