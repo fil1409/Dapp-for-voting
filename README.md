@@ -30,13 +30,13 @@ Questo progetto implementa un sistema di votazione sicuro e trasparente basato s
 ### 2. Installa le dipendenze
   npm install
 ### 3. Configura il contratto
-  1) Distribuisci il contratto Solidity:
-      -Apri il file Voting.sol nella directory contracts/.
-      -Utilizza un framework come Hardhat o Truffle per distribuire il contratto su una rete Ethereum locale o Testnet.
-      -Dopo la distribuzione, copia l'indirizzo del contratto distribuito.
-  2) Aggiorna la configurazione frontend:
-      -Vai al file src/contracts/Voting.json.
-      -Sostituisci il valore address del contratto con l'indirizzo del contratto distribuito.
+1)  Distribuisci il contratto Solidity:
+    -  Apri il file Voting.sol nella directory contracts/.
+    -  Utilizza un framework come Hardhat o Truffle per distribuire il contratto su una rete Ethereum locale o Testnet.
+    -  Dopo la distribuzione, copia l'indirizzo del contratto distribuito.
+2)  Aggiorna la configurazione frontend:
+    -  Vai al file src/contracts/Voting.json.
+    -  Sostituisci il valore address del contratto con l'indirizzo del contratto distribuito.
 ### 4. Avvia l'applicazione
   Utilizzando un altro terminale usare il segeunte comando per avviare l'applicazione:
   npm start
@@ -44,18 +44,18 @@ Questo progetto implementa un sistema di votazione sicuro e trasparente basato s
 
 Utilizzo
 Aggiungere un candidato
-  -L'amministratore può aggiungere candidati dalla sezione "Aggiungi Candidato".
-  -Inserire i dati richiesti (nome, età, partito) e caricare una foto.
-  -Cliccare su "Aggiungi Candidato".
+-  L'amministratore può aggiungere candidati dalla sezione "Aggiungi Candidato".
+-  Inserire i dati richiesti (nome, età, partito) e caricare una foto.
+-  Cliccare su "Aggiungi Candidato".
 Avviare le elezioni
-  -Specificare la durata delle elezioni in minuti.
-  -Cliccare su "Inizia Elezioni". Lo stato cambierà in "In corso".
+-  Specificare la durata delle elezioni in minuti.
+-   Cliccare su "Inizia Elezioni". Lo stato cambierà in "In corso".
 Votare
-  -Connetti MetaMask e accedi con un account.
-  -Nella sezione "Candidati", clicca su "Vota" accanto al candidato scelto.
+-  Connetti MetaMask e accedi con un account.
+-  Nella sezione "Candidati", clicca su "Vota" accanto al candidato scelto.
 Terminare le elezioni
-  -Quando il tempo è scaduto, l'amministratore può cliccare su "Termina Elezioni".
-  -I risultati saranno visibili nella sezione "Risultati delle Elezioni".
+-  Quando il tempo è scaduto, l'amministratore può cliccare su "Termina Elezioni".
+-  I risultati saranno visibili nella sezione "Risultati delle Elezioni".
 Screenshot
 (Inserisci qui degli screenshot dell'interfaccia utente per illustrare le funzionalità principali).
 
