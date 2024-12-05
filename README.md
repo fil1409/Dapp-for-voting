@@ -41,21 +41,21 @@ Questo progetto implementa un sistema di votazione sicuro e trasparente basato s
 ### 4. Avvia l'applicazione
   Utilizzando un altro terminale usare il segeunte comando per avviare l'applicazione:
   -  npm start
-  -  
+     
   L'app sarà disponibile su http://localhost:3000.
 
 Utilizzo
 1)  Aggiungere un candidato
--  L'amministratore può aggiungere candidati dalla sezione "Aggiungi Candidato".
--  Inserire i dati richiesti (nome, età, partito) e caricare una foto.
--  Cliccare su "Aggiungi Candidato".
+    -  L'amministratore può aggiungere candidati dalla sezione "Aggiungi Candidato".
+    -  Inserire i dati richiesti (nome, età, partito) e caricare una foto.
+    -  Cliccare su "Aggiungi Candidato".
 2)  Avviare le elezioni
--  Specificare la durata delle elezioni in minuti.
--   Cliccare su "Inizia Elezioni". Lo stato cambierà in "In corso".
+    -  Specificare la durata delle elezioni in minuti.
+    -  Cliccare su "Inizia Elezioni". Lo stato cambierà in "In corso".
 3)  Votare
--  Connetti MetaMask e accedi con un account.
--  Nella sezione "Candidati", clicca su "Vota" accanto al candidato scelto.
+    -  Connetti MetaMask e accedi con un account.
+    -  Nella sezione "Candidati", clicca su "Vota" accanto al candidato scelto.
 4)  Terminare le elezioni
--  Quando il tempo è scaduto, l'amministratore può cliccare su "Termina Elezioni".
--  I risultati saranno visibili nella sezione "Risultati delle Elezioni".
+    -  Quando il tempo è scaduto, l'amministratore può cliccare su "Termina Elezioni".
+    -  I risultati saranno visibili nella sezione "Risultati delle Elezioni".
 
