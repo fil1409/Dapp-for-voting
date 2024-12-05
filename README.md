@@ -44,7 +44,7 @@ Questo progetto implementa un sistema di votazione sicuro e trasparente basato s
      
   L'app sarà disponibile su http://localhost:3000.
 
-Utilizzo
+### Utilizzo
 1)  Aggiungere un candidato
     -  L'amministratore può aggiungere candidati dalla sezione "Aggiungi Candidato".
     -  Inserire i dati richiesti (nome, età, partito) e caricare una foto.
@@ -59,3 +59,64 @@ Utilizzo
     -  Quando il tempo è scaduto, l'amministratore può cliccare su "Termina Elezioni".
     -  I risultati saranno visibili nella sezione "Risultati delle Elezioni".
 
+# Blockchain Voting System
+
+## Description
+This project implements a secure and transparent voting system based on blockchain technology. It is designed to ensure the integrity and anonymity of the vote using a smart contract written in Solidity and a frontend interface built with React.
+
+## Key Features
+- **Add Candidates**: An administrator can add new candidates by specifying their name, age, party, and a photo.
+- **Start and End Elections**: The administrator can start and end elections, specifying the duration.
+- **Secure Voting**: Each registered user can cast one vote. Controls are in place to prevent duplicate voting.
+- **View Results**: At the end of the elections, the results are displayed in descending order of votes received.
+
+## Technologies Used
+- **Frontend**: React.js
+- **Backend**: Solidity (smart contract)
+- **Blockchain**: Ethereum with MetaMask for transaction management
+- **Additional Libraries**:
+  - Web3.js for interacting with the blockchain.
+  - SweetAlert2 for visual notifications.
+
+## Requirements
+- Node.js (version >= 14)
+- MetaMask installed in the browser
+- Ganache or a local Ethereum network (or Testnet, configurable through MetaMask)
+
+## Project Setup
+
+### 1. Clone the repository
+git clone https://github.com/fil1409/Dapp-for-voting.git
+
+cd Dapp-for-voting
+
+### 2. Install dependencies
+npm install
+### 3. Configure the contract
+1)  Deploy the Solidity contract:
+    -  Open the Voting.sol file in the contracts/ directory.
+    -  Use a framework like Hardhat or Truffle to deploy the contract on a local Ethereum network or a Testnet.
+    -  After deployment, copy the address of the deployed contract.
+2)  Update the frontend configuration:
+    -  Navigate to the src/contracts/Voting.json file.
+    -  Replace the address field with the address of the deployed contract.
+### 4. Start the application
+Open another terminal and run the following command to start the application:
+-  npm start
+
+The app will be available at http://localhost:3000.
+
+### Usage
+1)  Add a Candidate
+    -  The administrator can add candidates from the "Add Candidate" section.
+    -  Enter the required details (name, age, party) and upload a photo.
+    -  Click "Add Candidate".
+2)  Start the Elections
+    -  Specify the election duration in minutes.
+    -  Click "Start Elections". The status will change to "In Progress".
+3)  Vote
+    -  Connect MetaMask and log in with an account.
+    -  In the "Candidates" section, click "Vote" next to your chosen candidate.
+4)  End the Elections
+    -  When the time is up, the administrator can click "End Elections".
+    -  The results will be displayed in the "Election Results" section.
